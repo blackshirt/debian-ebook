@@ -15,6 +15,13 @@ Untuk menjalankan ``aptitude`` dalam mode interaktif, jalankan perintah ini di t
 
 .. image:: ../images/paket/aptitude-ui.png
 
+Navigasi dengan Aptitude
+************************
+
+Beberapa ``key`` yang digunakan untuk navigasi berbagai fasilitas yang ada dalam ``aptitude`` adalah:
+
+
+.. image:: ../images/paket/aptitude.png
 Tool instalasi `dselect` ini memberikan kemudahan kepada user debian
 GNU/Linux dalam melakukan instalasi karena dilengkapi dengan tampilan semi
 grafis. Anda hanya menyorot opsi [I]nstall jika ingin menginstal atau meng-
@@ -31,4 +38,4 @@ atau bila menggunakan sudo::
 
 Maka akan nampak pada terminal sebagai berikut.
 
-.. image:: ../images/paket/dselect.png
+
