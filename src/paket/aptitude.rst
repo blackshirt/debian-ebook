@@ -1,6 +1,14 @@
 Aptitude
 =======
+Sekilas tentang Aptitude
+------------------------
 
+Aptitude merupakan paket manager Debian GNU/Linux yang berbasiskan text menggunakan antarmuka ``ncurses``. Aptitude merupakan ``front-end`` lain dari tool ``apt-get`` yang sudah begitu terkenal di Debian GNU/linux. 
+``Aptitude`` bisa bekerja langsung untuk kegiatan manajemen paket di command line maupun berjalan dalam mode interaktif dalam antarmuka ``semigrafis``.
+
+Aptitude dalam mode interaktif
+------------------------------
+ 
 Tool instalasi `dselect` ini memberikan kemudahan kepada user debian
 GNU/Linux dalam melakukan instalasi karena dilengkapi dengan tampilan semi
 grafis. Anda hanya menyorot opsi [I]nstall jika ingin menginstal atau meng-
