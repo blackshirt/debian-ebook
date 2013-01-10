@@ -13,13 +13,19 @@ Untuk menjalankan ``aptitude`` dalam mode interaktif, jalankan perintah ini di t
 
 	debian:~# aptitude
 
-.. image:: ../images/paket/aptitude-ui.png
+.. image:: ../images/paket/aptitude-ui.PNG
 
 Navigasi dengan Aptitude
 ************************
 
-Beberapa ``key`` yang digunakan untuk navigasi berbagai fasilitas yang ada dalam ``aptitude`` adalah:
+Beberapa ``key``  yang umum digunakan untuk navigasi berbagai fasilitas yang ada dalam ``aptitude`` adalah:
 
+**Enter**	==> untuk mengeksekusi menu, ataupun kegunaan lain
+**Tab**	==> Untuk navigasi ke berbagai pilihan opsi
+**[**	==> untuk meng-*expand* menu dari group yang dipilih, bisa juga menggunakan Enter.
+**]**	==> Untuk meng-*collaps* menu dari group yang aktif, bisa juga menggunakan Enter.
+**Arrow key**, ?, ?, ?, ?	==> untuk navigasi yang diperlukan 
+**Ctrl+T**	==> Untuk membuka menu dari aptitude
 
-.. image:: ../images/paket/aptitude.png
+.. image:: ../images/paket/aptitude-menu.PNG
 
