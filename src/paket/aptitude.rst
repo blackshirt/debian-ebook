@@ -21,8 +21,12 @@ Untuk menjalankan ``aptitude`` dalam mode interaktif, jalankan perintah ini di t
 	:width: 355
 	:height: 235
 
+Saat dijalankan, aptitude menampilkan datfar paket-paket yang di``sortir`` sesuai keadaannya (installed, non-installed, menampilkan grup tasks, paket virtual, dan paket yang masuk kategori ``new``).
+Kategori diatur mirip stuktur ``tree`` seperti yang biasa kita lihat pada file manager/explorer, yang bisa diexpand atau diclose dengan menggunakan tombol-tombol navigasi pada keyboard komputer.
+
+
 Navigasi dengan Aptitude
-************************
+------------------------
 
 Beberapa ``key``  yang umum digunakan untuk navigasi berbagai fasilitas yang ada dalam ``aptitude`` adalah:
 
@@ -43,8 +47,11 @@ Beberapa ``key``  yang umum digunakan untuk navigasi berbagai fasilitas yang ada
 .. image:: ../images/paket/aptitude-menu.PNG
 
 
-Update dengan Aptitude
-**********************
+Operasi manajemen paket dengan Aptitude
+---------------------------------------
+
+Update database APT dengan aptitude
+***********************************
 
 Gunakan tombol keyboard `u` untuk melakukan update, seperti halnya perintah ``apt-get update``.  
 
@@ -54,3 +61,12 @@ Hal ini juga bisa dilakukan secara langsung dengan aptitude::
 
 	debian:~#aptitude update
 
+
+Menginstall paket dengan aptitude
+*********************************
+
+Setelah melakukan update, dan akan melakukan installasi paket yang diinginkan, langkahnya adalah sebagai berikut ::
+
+1. Mark (beri tanda) pada paket yang akan diinstall, dengan menggunakan ``+``
+2. Lakukan eksekusi perintah untuk menginstall dengan menggunakan tombol ``g``
+3. Enter untuk menjalankan proses selanjutnya, dan tunggu sampai proses selesai
