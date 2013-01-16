@@ -18,8 +18,8 @@ Untuk menjalankan ``aptitude`` dalam mode interaktif, jalankan perintah ini di t
 
 .. image:: ../images/paket/aptitude-ui.PNG
 	:alt: Antarmuka Aptitude
-	:width: 355
-	:height: 235
+	:width: 495
+	:height: 290
 
 Saat dijalankan, aptitude menampilkan datfar paket-paket yang di``sortir`` sesuai keadaannya (installed, non-installed, menampilkan grup tasks, paket virtual, dan paket yang masuk kategori ``new``).
 Kategori diatur mirip stuktur ``tree`` seperti yang biasa kita lihat pada file manager/explorer, yang bisa diexpand atau diclose dengan menggunakan tombol-tombol navigasi pada keyboard komputer.
@@ -42,7 +42,7 @@ Beberapa ``key``  yang umum digunakan untuk navigasi berbagai fasilitas yang ada
 
 - **Ctrl+T**	==> Untuk membuka menu dari aptitude
 
-.. warning:: Pada awalnya memang agak memerlukan waktu untuk memahami dalam menggunakan ``aptitude`` ini, jadi bersabarlah :)
+.. hint:: Pada awalnya memang agak memerlukan waktu untuk memahami dalam menggunakan ``aptitude`` ini, jadi bersabarlah :)
 
 .. image:: ../images/paket/aptitude-menu.PNG
 
@@ -56,6 +56,8 @@ Update database APT dengan aptitude
 Gunakan tombol keyboard `u` untuk melakukan update, seperti halnya perintah ``apt-get update``.  
 
 .. image:: ../images/paket/aptitude-update.png
+	:width: 480
+	:height: 290
 
 Hal ini juga bisa dilakukan secara langsung dengan aptitude::
 
@@ -72,15 +74,18 @@ Setelah melakukan update, dan akan melakukan installasi paket yang diinginkan, l
 Misal, kita mau menginstall paket ``tar``, arahkan kursor pada paket ``tar`` dan kemudian tekan ``+``, seperti terlihat pada gambar berikut:
 
 .. image:: ../images/paket/aptitude-mark-install.png
+	:width: 495
+	:height: 290
 
 2. Lakukan eksekusi perintah untuk menginstall dengan menggunakan tombol ``g``
 
 .. image:: ../images/paket/aptitude-install.png
+	:width: 495
+	:height: 290
 
 3. Enter untuk menjalankan proses selanjutnya, dan tunggu sampai proses selesai.
 
-.. note:: 
-Proses install paket juga bisa dilakukan tanpa melalui mode interaktif aptitude, yakni dengan ``#aptitude install tar``.
+.. note:: Proses install paket juga bisa dilakukan tanpa melalui mode interaktif aptitude, yakni dengan ``#aptitude install tar``.
 
 
 
@@ -99,6 +104,6 @@ jadi pastikan anda yakin akan meremovenya.
 
 3. Enter untuk menjalankan proses selanjutnya, dan tunggu sampai proses selesai
 
-.. notes:: Proses remove paket juga bisa dilakukan tanpa melalui mode interaktif aptitude, yakni dengan ``#aptitude remove namapaket``.
+.. note:: Proses remove paket juga bisa dilakukan tanpa melalui mode interaktif aptitude, yakni dengan ``#aptitude remove namapaket``.
 
 
