@@ -68,8 +68,36 @@ Menginstall paket dengan aptitude
 Setelah melakukan update, dan akan melakukan installasi paket yang diinginkan, langkahnya adalah sebagai berikut ::
 
 1. Mark (beri tanda) pada paket yang akan diinstall, dengan menggunakan tombol ``+``
+
 Misal, kita mau menginstall paket ``tar``, arahkan kursor pada paket ``tar`` dan kemudian tekan ``+``, seperti terlihat pada gambar berikut:
+
 .. image:: ../images/paket/aptitude-mark-install.png
+
 2. Lakukan eksekusi perintah untuk menginstall dengan menggunakan tombol ``g``
+
 .. image:: ../images/paket/aptitude-install.png
+
 3. Enter untuk menjalankan proses selanjutnya, dan tunggu sampai proses selesai
+
+.. notes:: Proses install paket juga bisa dilakukan tanpa melalui mode interaktif aptitude, yakni dengan ``#aptitude install tar``.
+
+
+
+Meremove paket dengan aptitude
+******************************
+
+Seperti halnya proses installasi paket, proses remove paket juga mudah. Caranya hampir sama dengan install, cuma berbeda tombol untuk me``mark`` paketnya.
+Jika install menggunakan ``+``, maka remove menggunakan ``-``.
+
+.. warning:: Berhati-hatilah saat meremove paket, dan pastikan kita tahu paket apa yang kita remove, karena proses dilakukan secara otomatis termasuk paket-paket lain yang bergantung padanya juga akan ikut diremove.
+jadi pastikan anda yakin akan meremovenya.
+
+1. Mark (beri tanda) pada paket yang akan diremove, dengan menggunakan tombol ``-``
+
+2. Lakukan eksekusi perintah untuk meremove dengan menggunakan tombol ``g``
+
+3. Enter untuk menjalankan proses selanjutnya, dan tunggu sampai proses selesai
+
+.. notes:: Proses remove paket juga bisa dilakukan tanpa melalui mode interaktif aptitude, yakni dengan ``#aptitude remove namapaket``.
+
+
