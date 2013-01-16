@@ -67,6 +67,9 @@ Menginstall paket dengan aptitude
 
 Setelah melakukan update, dan akan melakukan installasi paket yang diinginkan, langkahnya adalah sebagai berikut ::
 
-1. Mark (beri tanda) pada paket yang akan diinstall, dengan menggunakan ``+``
+1. Mark (beri tanda) pada paket yang akan diinstall, dengan menggunakan tombol ``+``
+Misal, kita mau menginstall paket ``tar``, arahkan kursor pada paket ``tar`` dan kemudian tekan ``+``, seperti terlihat pada gambar berikut:
+.. image:: ../images/paket/aptitude-mark-install.png
 2. Lakukan eksekusi perintah untuk menginstall dengan menggunakan tombol ``g``
+.. image:: ../images/paket/aptitude-install.png
 3. Enter untuk menjalankan proses selanjutnya, dan tunggu sampai proses selesai
